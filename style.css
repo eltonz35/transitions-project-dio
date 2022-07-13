@@ -62,3 +62,19 @@ body {
     text-transform: uppercase;
     transition: 0.3s;
 }
+
+.card:hover {
+    filter: unset;
+}
+
+.card:hover > .card-wrapper::before {
+    height: 320px;
+    width: 650px;
+    opacity: 1;
+}
+
+.card:hover > .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
