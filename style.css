@@ -12,7 +12,7 @@ body {
 
 .card {
     height: 400px;
-    width: 500px;
+    width: 700px;
     background-image: url(./front-end-banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -24,4 +24,13 @@ body {
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
+}
+
+.card-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
